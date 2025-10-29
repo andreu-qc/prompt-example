@@ -12,7 +12,7 @@ class CarRadio:
 
     def change_station(self, station):
         self.station = station
-        print(f"Station changed to {self.station}")
+        print(f"Station has changed to {self.station}")
 
     def get_status(self):
         return f"Current station: {self.station}, Volume: {self.volume}"
